@@ -1,2 +1,2 @@
+export const client_url = import.meta.env.VITE_SERVER;
 
-export const client_url = "https://pingme-backend.onrender.com";
