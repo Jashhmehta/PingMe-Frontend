@@ -47,7 +47,7 @@ const Search = () => {
   return (
     <Dialog open={isSearch} onClose={searchCloseHandler}>
       <Stack p={"2rem"} direction={"column"} width={"25rem"}>
-        <DialogTitle textAlign={"center"}>Find Chats</DialogTitle>
+        <DialogTitle textAlign={"center"}>Search New People</DialogTitle>
         <TextField
           label=""
           value={search.value}
