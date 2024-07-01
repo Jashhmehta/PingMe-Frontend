@@ -3,8 +3,9 @@ import {
   Group as GroupIcon,
   Logout as LogoutIcon,
   Menu as MenuIcon,
+  MessageRounded,
   Notifications as NotificationsIcon,
-  Search as SearchIcon,
+  Search as SearchIcon
 } from "@mui/icons-material";
 import {
   AppBar,
@@ -22,14 +23,14 @@ import toast from "react-hot-toast";
 import { useDispatch, useSelector } from "react-redux";
 import { useNavigate } from "react-router-dom";
 import { userNotExists } from "../../Redux/reducers/auth";
+import { resetNotificationCount } from "../../Redux/reducers/chat";
 import {
+  setIsNewGroup,
   setIsNotification,
   setIsSearch,
-  setIsNewGroup,
 } from "../../Redux/reducers/misc";
-import NewGroup from "../Specific/NewGroup";
-import { resetNotificationCount } from "../../Redux/reducers/chat";
 import { client_url } from "../../constants/config.js";
+import NewGroup from "../Specific/NewGroup";
 
 const SearchDialog = React.lazy(() => import("../Specific/Search"));
 const NotificationDialog = React.lazy(() =>
@@ -97,6 +98,8 @@ const Header = () => {
           }}
         >
           <Toolbar>
+            <MessageRounded />
+            
             <Typography
               variant="h6"
               sx={{ display: { xs: "none", sm: "block" } }}
