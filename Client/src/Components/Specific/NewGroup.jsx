@@ -22,6 +22,7 @@ import {
   useNewGroupMutation,
 } from "../../Redux/API/api";
 import toast from "react-hot-toast";
+import { Group, GroupAdd } from "@mui/icons-material";
 const NewGroup = () => {
   const dispatch = useDispatch();
   const { isNewGroup } = useSelector((state) => state.misc);
@@ -61,8 +62,9 @@ const NewGroup = () => {
   return (
     <Dialog onClose={closeHandler} open={isNewGroup}>
       <Stack p={{ xs: "1rem", sm: "2rem" }} width={"25rem"} spacing={"2rem"}>
-        <DialogTitle textAlign={"center "} variant="h4">
-          Create New Group
+        <DialogTitle textAlign={"center "} variant="h5">
+          <GroupAdd />
+          Create Group
         </DialogTitle>
         <TextField
           label="Group Name"
