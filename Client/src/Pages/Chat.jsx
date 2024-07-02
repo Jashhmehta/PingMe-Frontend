@@ -162,7 +162,7 @@ const Chat = ({ chatId, user }) => {
         boxSizing={"border-box"}
         padding={"1rem"}
         spacing={"1rem"}
-        bgcolor={"#212121"}
+        bgcolor={"#28282B"}
         height={"90%"}
         sx={{
           overflowX: "hidden",
