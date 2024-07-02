@@ -128,7 +128,7 @@ const Chat = ({ chatId, user }) => {
       setMessage("");
       setOldMessages([]);
       setPage(1);
-      socket.emit(CHAT_EXIT, user._id);
+      socket.emit(CHAT_EXIT, {userId:user._id,members});
     };
   }, [chatId]);
 
