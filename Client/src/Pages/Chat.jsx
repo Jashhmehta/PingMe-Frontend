@@ -44,7 +44,7 @@ const Chat = ({ chatId, user }) => {
   const [page, setPage] = useState(1);
   const navigate = useNavigate();
   const chatDetails = useChatDetailsQuery({ chatId, skip: !chatId });
-  const oldMessagesChunk = useGetMessagesQuery({ chatId, page: 1 });
+  const oldMessagesChunk = useGetMessagesQuery({ chatId, page });
   const { data: oldMessages, setData: setOldMessages } = useInfiniteScrollTop(
     containerRef,
     oldMessagesChunk.data?.totalPages,
