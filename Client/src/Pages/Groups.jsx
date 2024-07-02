@@ -207,8 +207,8 @@ const Groups = () => {
   return myGroups.isLoading ? (
     <LayoutLoader />
   ) : (
-    <Grid container height={"100vh"}>
-      <Grid item sm={4} bgcolor={"bisque"}>
+    <Grid container height={"100vh"} >
+      <Grid item sm={2.5} bgcolor={"#191970"}>
         <GroupsList myGroups={myGroups?.data?.groups} chatId={chatId} />
       </Grid>
       <Grid
@@ -229,22 +229,23 @@ const Groups = () => {
             {GroupName}
             <Typography
               margin={"2rem"}
-              alignSelf={"flex-start"}
-              variant="body1"
+              alignSelf={"center"}
+              
+            
             >
-              Members
+              <h1>Members</h1>
             </Typography>
             <Stack
               maxWidth={"45rem"}
               width={"100%"}
-              boxSizing={"border-box"}
+            boxSizing={"border-box"}
               padding={{
                 sm: "1rem",
                 xs: "0",
                 md: "1rem 4rem",
               }}
               spacing={"2rem"}
-              bgcolor={"blueviolet"}
+              bgcolor={""}
               height={"50vh"}
               overflow={"auto"}
             >
@@ -314,7 +315,7 @@ const GroupListItem = ({ group, chatId }) => {
     >
       <Stack direction={"row"} spacing={"1rem"} alignItems={"center"}>
         <AvatarCard avatar={avatar} />
-        <Typography>{name}</Typography>
+        <Typography color={"white"} padding={4}>{name}</Typography>
       </Stack>
     </Link>
   );

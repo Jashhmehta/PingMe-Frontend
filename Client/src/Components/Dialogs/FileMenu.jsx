@@ -96,20 +96,7 @@ const FileMenu = ({ anchorE1, chatId }) => {
             />
           </MenuItem>
 
-          <MenuItem onClick={() => selectRef(FileRef)}>
-            <Tooltip title="File">
-              <UploadFile />
-            </Tooltip>
-            <ListItemText style={{ marginLeft: "0.5rem" }}>File</ListItemText>
-            <input
-              type="file"
-              multiple
-              accept="*"
-              style={{ display: "none" }}
-              onChange={(e) => fileChangeHandler(e, "File")}
-              ref={FileRef}
-            />
-          </MenuItem>
+          
         </MenuList>
       </div>
     </Menu>
