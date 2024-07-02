@@ -43,7 +43,7 @@ const ChatItem = ({
             {name}
           </Typography>
           {newMessageAlert && (
-            <Typography fontWeight={"bold"}>
+            <Typography fontWeight={"bold"} color={"white"}>
               {newMessageAlert.count} New Message
             </Typography>
           )}
