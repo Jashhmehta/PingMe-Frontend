@@ -18,7 +18,7 @@ const Profile = ({ user }) => {
           height: 200,
           objectFit: "contain",
           marginBottom: "1rem",
-          border: "5px solid white",
+          border: "3px solid white",
         }}
         src={transformImage(user?.avatar?.url)}
       />

@@ -2,7 +2,7 @@ import React, { memo } from "react";
 import { Link } from "../Styles/StyledComponents";
 import { Box, Stack, Typography } from "@mui/material";
 import AvatarCard from "./AvatarCard";
-import {motion }from "framer-motion"
+import { motion } from "framer-motion";
 const ChatItem = ({
   avatar = [],
   name,
@@ -22,15 +22,16 @@ const ChatItem = ({
       onContextMenu={(e) => handleDeleteChat(e, _id, groupChat)}
     >
       <motion.div
-      initial={{opacity:0,y:"-100%"}}
-      whileInView={{opacity:1,y:0 }}
-      transition={{delay:index*0.02}}
+        initial={{ opacity: 0, y: "-100%" }}
+        whileInView={{ opacity: 1, y: 0 }}
+        transition={{ delay: index * 0.02 }}
         style={{
           display: "flex",
           alignItems: "center",
-          padding: "1rem",
+          padding: "1.5rem",
           gap: "1rem",
-          backgroundColor: sameSender ? "blue" : "unset",
+
+          backgroundColor: sameSender ? "#000278" : "unset",
           color: sameSender ? "white" : "unset",
           borderBottom: "1px solid #fofofo",
           justifyContent: "space-between",
@@ -39,9 +40,13 @@ const ChatItem = ({
       >
         <AvatarCard avatar={Array.isArray(avatar) ? avatar : []} />
         <Stack>
-          <Typography>{name}</Typography>
+          <Typography color={"white"} fontSize={17}>
+            {name}
+          </Typography>
           {newMessageAlert && (
-            <Typography fontWeight={"bold"}>{newMessageAlert.count} New Message</Typography>
+            <Typography fontWeight={"bold"}>
+              {newMessageAlert.count} New Message
+            </Typography>
           )}
         </Stack>
         {isOnline && (

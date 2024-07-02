@@ -30,7 +30,8 @@ export const InputBox = styled("input")`
   outline: none;
   padding: 0 3rem;
   border-radius: 1rem;
-  background-color: yellow;
+  background-color: #36454F;
+  color:#f1f1f1;
 `;
 
 export const SearchField = styled("input")`

@@ -91,8 +91,9 @@ const AppLayout = () => (WrappedComponent) => {
 
         <Grid container height={"calc(100vh - 4rem)"}>
           <Grid
+           bgcolor="#060608"
             item
-            sm={4}
+            sm={3}
             md={3}
             sx={{
               display: { xs: "none", sm: "block" },
@@ -111,20 +112,20 @@ const AppLayout = () => (WrappedComponent) => {
               />
             )}
           </Grid>
-          <Grid item xs={12} sm={8} md={5} lg={6} height={"100%"}>
+          <Grid item xs={12} sm={8} md={5} lg={7} height={"100%"}>
             <WrappedComponent {...props} chatId={chatId} user={user} />
           </Grid>
           <Grid
             item
             md={4}
-            lg={3}
+            lg={2}
             height={"100%"}
             sx={{
               display: { xs: "none", sm: "block" },
               padding: "2rem",
-              bgcolor: "rgba(0,0,0,0.85)",
+              bgcolor: "#000278",
             }}
-            bgcolor="primary.main"
+     
           >
             <Profile user={user} />
           </Grid>
