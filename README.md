@@ -20,13 +20,19 @@ PingME is a feature-rich, real-time chat application built using the MERN stack 
 
 ## Screenshots
 
-![Screenshot 1](https://private-user-images.githubusercontent.com/150108603/345432044-7ffec8e4-9045-4499-b5ab-ce37ecfa52ef.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MjAwMTIyMTgsIm5iZiI6MTcyMDAxMTkxOCwicGF0aCI6Ii8xNTAxMDg2MDMvMzQ1NDMyMDQ0LTdmZmVjOGU0LTkwNDUtNDQ5OS1iNWFiLWNlMzdlY2ZhNTJlZi5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwNzAzJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDcwM1QxMzA1MThaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT0xNmI4ODRkMGUxZDRmNDkyNjJjMTQ4OGZkZGU3NTBkNGI3M2UzNTI1NWFiMTVkMDFlMmQ3NTUyZjE5ODUxMTFkJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.-rGcSv77V8iE9v8YO_eYDiibTnOrCwZFH5JF4aUcJi0)
-![Screenshot 2](https://drive.google.com/file/d/1_MCPZK2lG_qmZxfIQpC7Ph-hz7bk10N2/view?usp=sharing)
-![Screenshot 3](https://drive.google.com/file/d/1RIZNPfcBG0RQ8rFf3Xpd9Lmi6tbZ6BBU/view?usp=sharing)
-![Screenshot 4](https://drive.google.com/file/d/1NhALCKyIN0rLn3vgpzPawHM8_oChrBGt/view?usp=sharing)
-![Screenshot 5](https://drive.google.com/file/d/1frvHN_m1ozRUzXkeaamNQKmw3t58a8mN/view?usp=sharing)
-![Screenshot 6](https://drive.google.com/file/d/1384bv3xQ2oU5znvXSTDLek2PTsoFRiXn/view?usp=sharing)
-![Screenshot 7](https://drive.google.com/file/d/1Ew17akeApqAAnuFvQyhRYvuYinCff5gs/view?usp=sharing)
+![Screenshot 1](https://res.cloudinary.com/dggu0pzry/image/upload/v1720012024/2f1026b5-6d20-4b26-bfa8-423f012a0627.png)
+
+![Screenshot 2](https://res.cloudinary.com/dggu0pzry/image/upload/v1720012024/1a277b42-2173-46ff-a3e7-3d88b09ed4fb.png)
+
+![Screenshot 3](https://res.cloudinary.com/dggu0pzry/image/upload/v1720012025/9202ac19-c388-42a9-a758-35cb579580a3.png)
+
+![Screenshot 4](https://res.cloudinary.com/dggu0pzry/image/upload/v1720012024/b2a8df52-1383-4919-9464-a552d5003df1.png)
+
+![Screenshot 5](https://res.cloudinary.com/dggu0pzry/image/upload/v1720012024/45ae499a-8124-437c-ab83-755c7b139414.png)
+
+![Screenshot 6](https://res.cloudinary.com/dggu0pzry/image/upload/v1720012024/70b031c0-3b2c-46f5-bc39-368d94ad4b25.png)
+
+![Screenshot 7](https://res.cloudinary.com/dggu0pzry/image/upload/v1720012024/ec6a1a79-271a-483b-8084-3d45e5d380a6.png)
 
 
 
