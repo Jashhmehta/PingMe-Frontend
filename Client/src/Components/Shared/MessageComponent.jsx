@@ -11,8 +11,9 @@ const MessageComponent = ({ message, user }) => {
   const timeAgo = moment(createdAt).fromNow();
   return (
     <motion.div
-      initial={{ opacity: 0, x: "-100%" }}
-      whileInView={{ opacity: 1, x: 0 }}
+      initial={{ opacity: 0, y: "-100%" }}
+      whileInView={{ opacity: 1, y: 0 }}
+      transition={{ delay: message * 0.02 }}
       style={{
         alignSelf: sameSender ? "flex-end" : "flex-start",
         backgroundColor: sameSender ? "#006400" : "#1034A6",
