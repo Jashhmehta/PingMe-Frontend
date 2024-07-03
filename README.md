@@ -20,7 +20,7 @@ PingME is a feature-rich, real-time chat application built using the MERN stack 
 
 ## Screenshots
 
-![Screenshot 1](https://github.com/Jashhmehta/Jashhmehta/issues/1#issue-2388580400)
+![Screenshot 1](https://private-user-images.githubusercontent.com/150108603/345432044-7ffec8e4-9045-4499-b5ab-ce37ecfa52ef.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MjAwMTIyMTgsIm5iZiI6MTcyMDAxMTkxOCwicGF0aCI6Ii8xNTAxMDg2MDMvMzQ1NDMyMDQ0LTdmZmVjOGU0LTkwNDUtNDQ5OS1iNWFiLWNlMzdlY2ZhNTJlZi5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwNzAzJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDcwM1QxMzA1MThaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT0xNmI4ODRkMGUxZDRmNDkyNjJjMTQ4OGZkZGU3NTBkNGI3M2UzNTI1NWFiMTVkMDFlMmQ3NTUyZjE5ODUxMTFkJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.-rGcSv77V8iE9v8YO_eYDiibTnOrCwZFH5JF4aUcJi0)
 ![Screenshot 2](https://drive.google.com/file/d/1_MCPZK2lG_qmZxfIQpC7Ph-hz7bk10N2/view?usp=sharing)
 ![Screenshot 3](https://drive.google.com/file/d/1RIZNPfcBG0RQ8rFf3Xpd9Lmi6tbZ6BBU/view?usp=sharing)
 ![Screenshot 4](https://drive.google.com/file/d/1NhALCKyIN0rLn3vgpzPawHM8_oChrBGt/view?usp=sharing)
