@@ -1,5 +1,13 @@
 {
   "rewrites": [
+    { "source": "/chat/:chatId", "destination": "/" },
+    { "source": "/groups", "destination": "/" },
+    { "source": "/login", "destination": "/" },
+    { "source": "/admin", "destination": "/" },
+    { "source": "/admin/dashboard", "destination": "/" },
+    { "source": "/admin/users", "destination": "/" },
+    { "source": "/admin/messages", "destination": "/" },
+    { "source": "/admin/chats", "destination": "/" },
     { "source": "/:a*", "destination": "/" }
   ]
 }
