@@ -20,7 +20,7 @@ PingME is a feature-rich, real-time chat application built using the MERN stack 
 
 ## Screenshots
 
-![Screenshot 1](https://drive.google.com/file/d/1X_H0WOaUmehKcrstnXQ1H7MWc4KmjNdv/view?usp=sharing)
+![Screenshot 1](https://drive.google.com/file/d/1mhBFEstthjJdE7zYhnfm2fWYhBEswsSu/view?usp=drive_link)
 ![Screenshot 2](https://drive.google.com/file/d/1_MCPZK2lG_qmZxfIQpC7Ph-hz7bk10N2/view?usp=sharing)
 ![Screenshot 3](https://drive.google.com/file/d/1RIZNPfcBG0RQ8rFf3Xpd9Lmi6tbZ6BBU/view?usp=sharing)
 ![Screenshot 4](https://drive.google.com/file/d/1NhALCKyIN0rLn3vgpzPawHM8_oChrBGt/view?usp=sharing)
